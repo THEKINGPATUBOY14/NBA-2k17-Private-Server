@@ -1,0 +1,5 @@
+﻿  Generating code
+  Previous IOBJ not found, fall back to full compilation.
+C:\Users\hills\Desktop\NBA 2K17 GameServer\NBA 2K17 GameServer\main.cpp(14): error C4716: 'MainThread': must return a value
+  All 2 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+LINK : fatal error LNK1257: code generation failed
