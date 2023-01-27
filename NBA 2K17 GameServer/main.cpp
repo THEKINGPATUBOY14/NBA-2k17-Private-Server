@@ -4,14 +4,24 @@
 #include <iostream>
 #include <string>
 #include "Offsets.h"
-#include "Networking/Server.h"
+#include "Server.h"
 
 
 DWORD WINAPI MainThread(LPVOID lp)
 {
+    Server Server;
+        
+    Server.StartServer();
+    Server.StartListen();
+    GAME_STATE_HANDLER::InitOffsets();
+    CONNECTIONMANAGER::InitOffsets();
 
 
+
+
+    return 0;
 }
+
 
 
 
